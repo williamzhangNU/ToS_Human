@@ -10,7 +10,7 @@ exp_type: active
 # perspective: ego
 max_exp_steps: 20
 calculate_information_gain: true
-data_dir: "vagen/env/spatial/Player_platform/dataset"
+data_dir: "vagen/env/spatial/Player_platform/rooms"
 eval_task_counts:
   dir: 3
   fwd_fov: 3
