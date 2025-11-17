@@ -1,0 +1,1861 @@
+{
+  "room_size": [
+    20.0,
+    20.0
+  ],
+  "screen_size": [
+    768,
+    768
+  ],
+  "seed": 15912,
+  "min_distance": 1.42,
+  "objects": [
+    {
+      "object_id": 9377208,
+      "model": "b03_basket",
+      "name": "basket",
+      "label": "1",
+      "pos": {
+        "x": -1.0,
+        "y": 0.05,
+        "z": 1.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": [
+        0.4791392,
+        0.4832616
+      ],
+      "attributes": {
+        "scale": 1.0,
+        "has_orientation": false,
+        "room_id": 1
+      }
+    },
+    {
+      "object_id": 4398984,
+      "model": "backpack4",
+      "name": "backpack",
+      "label": "2",
+      "pos": {
+        "x": 0.0,
+        "y": 0.05,
+        "z": 3.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 270,
+        "z": 0
+      },
+      "size": [
+        0.00617001098,
+        0.007094854
+      ],
+      "attributes": {
+        "scale": 0.004,
+        "has_orientation": true,
+        "room_id": 1,
+        "orientation": "west"
+      }
+    },
+    {
+      "object_id": 3404913,
+      "model": "shoes2",
+      "name": "shoes2",
+      "label": "3",
+      "pos": {
+        "x": -3.0,
+        "y": 0.05,
+        "z": 3.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "size": [
+        0.00762122964,
+        0.00832993982
+      ],
+      "attributes": {
+        "scale": 0.002,
+        "has_orientation": true,
+        "room_id": 1,
+        "orientation": "east"
+      }
+    },
+    {
+      "object_id": 3509000,
+      "model": "airplane3",
+      "name": "airplane",
+      "label": "4",
+      "pos": {
+        "x": -3.0,
+        "y": 0.05,
+        "z": 0.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "size": [
+        0.010572741696,
+        0.010453868832000002
+      ],
+      "attributes": {
+        "scale": 0.0008,
+        "has_orientation": true,
+        "room_id": 1,
+        "orientation": "east"
+      }
+    },
+    {
+      "object_id": 4370716,
+      "model": "pan04",
+      "name": "pan",
+      "label": "5",
+      "pos": {
+        "x": 6.0,
+        "y": 0.05,
+        "z": -1.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "size": [
+        0.5437146,
+        1.1787351
+      ],
+      "attributes": {
+        "scale": 3,
+        "has_orientation": true,
+        "room_id": 2,
+        "orientation": "east"
+      }
+    },
+    {
+      "object_id": 4607442,
+      "model": "teapot4",
+      "name": "teapot",
+      "label": "6",
+      "pos": {
+        "x": 3.0,
+        "y": 0.05,
+        "z": -3.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 180,
+        "z": 0
+      },
+      "size": [
+        0.0075332325,
+        0.004506037907999999
+      ],
+      "attributes": {
+        "scale": 0.0012,
+        "has_orientation": true,
+        "room_id": 2,
+        "orientation": "south"
+      }
+    },
+    {
+      "object_id": 8819066,
+      "model": "macbook_air",
+      "name": "laptop",
+      "label": "7",
+      "pos": {
+        "x": 8.0,
+        "y": 0.05,
+        "z": -3.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 270,
+        "z": 0
+      },
+      "size": [
+        0.625783,
+        0.5115315779999999
+      ],
+      "attributes": {
+        "scale": 2.0,
+        "has_orientation": true,
+        "room_id": 2,
+        "orientation": "west"
+      }
+    },
+    {
+      "object_id": 9429006,
+      "model": "small_table_green_marble",
+      "name": "table",
+      "label": "8",
+      "pos": {
+        "x": 5.0,
+        "y": 0.05,
+        "z": 2.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "size": [
+        0.57186435,
+        0.37899395
+      ],
+      "attributes": {
+        "scale": 0.5,
+        "has_orientation": false,
+        "room_id": 2
+      }
+    },
+    {
+      "object_id": 2377287,
+      "model": "vase_01",
+      "name": "vase",
+      "label": "9",
+      "pos": {
+        "x": 8.0,
+        "y": 0.05,
+        "z": 2.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "size": [
+        0.29050520999999996,
+        0.29050524
+      ],
+      "attributes": {
+        "scale": 3.0,
+        "has_orientation": false,
+        "room_id": 2
+      }
+    },
+    {
+      "object_id": 20076,
+      "model": "blue_door",
+      "name": "blue door",
+      "pos": {
+        "x": 2.0,
+        "y": 0,
+        "z": 0.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": [
+        1,
+        2.0
+      ],
+      "attributes": {
+        "color": "blue",
+        "orientation": "vertical",
+        "connected_rooms": [
+          1,
+          2
+        ]
+      }
+    }
+  ],
+  "cameras": [
+    {
+      "id": "agent",
+      "label": "A",
+      "position": {
+        "x": -1.0,
+        "y": 0.85,
+        "z": -1.0
+      },
+      "rotation": {
+        "y": 0.0
+      }
+    },
+    {
+      "id": "9377208",
+      "label": "1",
+      "position": {
+        "x": -1.0,
+        "y": 0.8,
+        "z": 1.0
+      },
+      "rotation": {
+        "y": 135.0
+      }
+    },
+    {
+      "id": "4398984",
+      "label": "2",
+      "position": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": 3.0
+      },
+      "rotation": {
+        "y": -180.0
+      }
+    },
+    {
+      "id": "3404913",
+      "label": "3",
+      "position": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": 3.0
+      },
+      "rotation": {
+        "y": 135.0
+      }
+    },
+    {
+      "id": "3509000",
+      "label": "4",
+      "position": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "rotation": {
+        "y": 90.0
+      }
+    },
+    {
+      "id": "4370716",
+      "label": "5",
+      "position": {
+        "x": 6.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "rotation": {
+        "y": -80.53767779197439
+      }
+    },
+    {
+      "id": "4607442",
+      "label": "6",
+      "position": {
+        "x": 3.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "rotation": {
+        "y": -45.0
+      }
+    },
+    {
+      "id": "8819066",
+      "label": "7",
+      "position": {
+        "x": 8.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "rotation": {
+        "y": -69.44395478041653
+      }
+    },
+    {
+      "id": "9429006",
+      "label": "8",
+      "position": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "rotation": {
+        "y": -111.80140948635182
+      }
+    },
+    {
+      "id": "2377287",
+      "label": "9",
+      "position": {
+        "x": 8.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "rotation": {
+        "y": -104.03624346792648
+      }
+    },
+    {
+      "id": "20076",
+      "label": "D20076",
+      "position": {
+        "x": 2.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "rotation": {
+        "y": 0.0
+      }
+    }
+  ],
+  "images": [
+    {
+      "file": "top_down.png",
+      "cam_id": "top_down",
+      "pos": {
+        "x": 0,
+        "y": 20,
+        "z": 0
+      },
+      "direction": "down",
+      "object_ratios": []
+    },
+    {
+      "file": "top_down_annotated.png",
+      "cam_id": "top_down_annotated",
+      "pos": {
+        "x": 0,
+        "y": 20,
+        "z": 0
+      },
+      "direction": "down",
+      "object_ratios": []
+    },
+    {
+      "file": "agent_facing_north.png",
+      "cam_id": "agent",
+      "pos": {
+        "x": -1.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 9377208,
+          "model": "b03_basket",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 4398984,
+          "model": "backpack4",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 3404913,
+          "model": "shoes2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "agent_facing_east.png",
+      "cam_id": "agent",
+      "pos": {
+        "x": -1.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "agent_facing_south.png",
+      "cam_id": "agent",
+      "pos": {
+        "x": -1.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "agent_facing_west.png",
+      "cam_id": "agent",
+      "pos": {
+        "x": -1.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 3509000,
+          "model": "airplane3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "9377208_facing_north.png",
+      "cam_id": "9377208",
+      "pos": {
+        "x": -1.0,
+        "y": 0.8,
+        "z": 1.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 4398984,
+          "model": "backpack4",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 3404913,
+          "model": "shoes2",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "9377208_facing_east.png",
+      "cam_id": "9377208",
+      "pos": {
+        "x": -1.0,
+        "y": 0.8,
+        "z": 1.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "9377208_facing_south.png",
+      "cam_id": "9377208",
+      "pos": {
+        "x": -1.0,
+        "y": 0.8,
+        "z": 1.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "9377208_facing_west.png",
+      "cam_id": "9377208",
+      "pos": {
+        "x": -1.0,
+        "y": 0.8,
+        "z": 1.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 3404913,
+          "model": "shoes2",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 3509000,
+          "model": "airplane3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "4398984_facing_north.png",
+      "cam_id": "4398984",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": 3.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "4398984_facing_east.png",
+      "cam_id": "4398984",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": 3.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "4398984_facing_south.png",
+      "cam_id": "4398984",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": 3.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 9377208,
+          "model": "b03_basket",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 3509000,
+          "model": "airplane3",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "4398984_facing_west.png",
+      "cam_id": "4398984",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": 3.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 3404913,
+          "model": "shoes2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 3509000,
+          "model": "airplane3",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "3404913_facing_north.png",
+      "cam_id": "3404913",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": 3.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "3404913_facing_east.png",
+      "cam_id": "3404913",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": 3.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 9377208,
+          "model": "b03_basket",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 4398984,
+          "model": "backpack4",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "3404913_facing_south.png",
+      "cam_id": "3404913",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": 3.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 9377208,
+          "model": "b03_basket",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 3509000,
+          "model": "airplane3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "3404913_facing_west.png",
+      "cam_id": "3404913",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": 3.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "3509000_facing_north.png",
+      "cam_id": "3509000",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 4398984,
+          "model": "backpack4",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 3404913,
+          "model": "shoes2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "3509000_facing_east.png",
+      "cam_id": "3509000",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 9377208,
+          "model": "b03_basket",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 4398984,
+          "model": "backpack4",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "3509000_facing_south.png",
+      "cam_id": "3509000",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "3509000_facing_west.png",
+      "cam_id": "3509000",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "4370716_facing_north.png",
+      "cam_id": "4370716",
+      "pos": {
+        "x": 6.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 9429006,
+          "model": "small_table_green_marble",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 2377287,
+          "model": "vase_01",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "4370716_facing_east.png",
+      "cam_id": "4370716",
+      "pos": {
+        "x": 6.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 8819066,
+          "model": "macbook_air",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "4370716_facing_south.png",
+      "cam_id": "4370716",
+      "pos": {
+        "x": 6.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 8819066,
+          "model": "macbook_air",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "4370716_facing_west.png",
+      "cam_id": "4370716",
+      "pos": {
+        "x": 6.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 4607442,
+          "model": "teapot4",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "4607442_facing_north.png",
+      "cam_id": "4607442",
+      "pos": {
+        "x": 3.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 9429006,
+          "model": "small_table_green_marble",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 2377287,
+          "model": "vase_01",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "4607442_facing_east.png",
+      "cam_id": "4607442",
+      "pos": {
+        "x": 3.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 4370716,
+          "model": "pan04",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8819066,
+          "model": "macbook_air",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 2377287,
+          "model": "vase_01",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "4607442_facing_south.png",
+      "cam_id": "4607442",
+      "pos": {
+        "x": 3.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "4607442_facing_west.png",
+      "cam_id": "4607442",
+      "pos": {
+        "x": 3.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "8819066_facing_north.png",
+      "cam_id": "8819066",
+      "pos": {
+        "x": 8.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 4370716,
+          "model": "pan04",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9429006,
+          "model": "small_table_green_marble",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 2377287,
+          "model": "vase_01",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "8819066_facing_east.png",
+      "cam_id": "8819066",
+      "pos": {
+        "x": 8.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "8819066_facing_south.png",
+      "cam_id": "8819066",
+      "pos": {
+        "x": 8.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "8819066_facing_west.png",
+      "cam_id": "8819066",
+      "pos": {
+        "x": 8.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 4370716,
+          "model": "pan04",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 4607442,
+          "model": "teapot4",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "9429006_facing_north.png",
+      "cam_id": "9429006",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "9429006_facing_east.png",
+      "cam_id": "9429006",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 2377287,
+          "model": "vase_01",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "9429006_facing_south.png",
+      "cam_id": "9429006",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 4370716,
+          "model": "pan04",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 4607442,
+          "model": "teapot4",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8819066,
+          "model": "macbook_air",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "9429006_facing_west.png",
+      "cam_id": "9429006",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "2377287_facing_north.png",
+      "cam_id": "2377287",
+      "pos": {
+        "x": 8.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "2377287_facing_east.png",
+      "cam_id": "2377287",
+      "pos": {
+        "x": 8.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "2377287_facing_south.png",
+      "cam_id": "2377287",
+      "pos": {
+        "x": 8.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 4370716,
+          "model": "pan04",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 4607442,
+          "model": "teapot4",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8819066,
+          "model": "macbook_air",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "2377287_facing_west.png",
+      "cam_id": "2377287",
+      "pos": {
+        "x": 8.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 4607442,
+          "model": "teapot4",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9429006,
+          "model": "small_table_green_marble",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20076_facing_north.png",
+      "cam_id": "20076",
+      "pos": {
+        "x": 2.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 4398984,
+          "model": "backpack4",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20076_facing_east.png",
+      "cam_id": "20076",
+      "pos": {
+        "x": 2.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "20076_facing_south.png",
+      "cam_id": "20076",
+      "pos": {
+        "x": 2.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "20076_facing_west.png",
+      "cam_id": "20076",
+      "pos": {
+        "x": 2.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 9377208,
+          "model": "b03_basket",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 3404913,
+          "model": "shoes2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 3509000,
+          "model": "airplane3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20076_facing_north.png",
+      "cam_id": "20076",
+      "pos": {
+        "x": 2.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "20076_facing_east.png",
+      "cam_id": "20076",
+      "pos": {
+        "x": 2.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 4370716,
+          "model": "pan04",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8819066,
+          "model": "macbook_air",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9429006,
+          "model": "small_table_green_marble",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 2377287,
+          "model": "vase_01",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20076_facing_south.png",
+      "cam_id": "20076",
+      "pos": {
+        "x": 2.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 4607442,
+          "model": "teapot4",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20076_facing_west.png",
+      "cam_id": "20076",
+      "pos": {
+        "x": 2.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    }
+  ],
+  "rooms": {
+    "1": {
+      "center": [
+        -1.5,
+        1.5
+      ],
+      "bounds": [
+        -4.5,
+        1.5,
+        -1.5,
+        4.5
+      ],
+      "area": 36,
+      "connected_rooms": [
+        2
+      ]
+    },
+    "2": {
+      "center": [
+        5.5,
+        -0.5
+      ],
+      "bounds": [
+        2.5,
+        8.5,
+        -3.5,
+        2.5
+      ],
+      "area": 36,
+      "connected_rooms": [
+        1
+      ]
+    }
+  },
+  "doors": {
+    "100": {
+      "center": [
+        2.0,
+        0.0
+      ],
+      "color": "blue",
+      "connected_rooms": [
+        1,
+        2
+      ],
+      "orientation": "vertical",
+      "width": 1
+    }
+  },
+  "room_object_assignments": {
+    "1": [
+      {
+        "object_id": 9377208,
+        "name": "basket",
+        "label": "1"
+      },
+      {
+        "object_id": 4398984,
+        "name": "backpack",
+        "label": "2"
+      },
+      {
+        "object_id": 3404913,
+        "name": "shoes2",
+        "label": "3"
+      },
+      {
+        "object_id": 3509000,
+        "name": "airplane",
+        "label": "4"
+      }
+    ],
+    "2": [
+      {
+        "object_id": 4370716,
+        "name": "pan",
+        "label": "5"
+      },
+      {
+        "object_id": 4607442,
+        "name": "teapot",
+        "label": "6"
+      },
+      {
+        "object_id": 8819066,
+        "name": "laptop",
+        "label": "7"
+      },
+      {
+        "object_id": 9429006,
+        "name": "table",
+        "label": "8"
+      },
+      {
+        "object_id": 2377287,
+        "name": "vase",
+        "label": "9"
+      }
+    ]
+  },
+  "mask": [
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      100,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ]
+  ],
+  "offset": [
+    10,
+    10
+  ],
+  "validated_tasks": [
+    "rot",
+    "rot_dual",
+    "dir",
+    "pov",
+    "e2a",
+    "fwd_loc",
+    "bwd_loc",
+    "false_belief",
+    "fwd_fov",
+    "bwd_nav",
+    "bwd_pov"
+  ]
+}

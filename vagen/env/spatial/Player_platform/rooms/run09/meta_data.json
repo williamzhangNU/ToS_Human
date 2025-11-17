@@ -1,0 +1,1839 @@
+{
+  "room_size": [
+    20.0,
+    20.0
+  ],
+  "screen_size": [
+    768,
+    768
+  ],
+  "seed": 21629,
+  "min_distance": 1.42,
+  "objects": [
+    {
+      "object_id": 1227849,
+      "model": "bicycle1",
+      "name": "bicycle",
+      "label": "1",
+      "pos": {
+        "x": -2.0,
+        "y": 0.15000000000000002,
+        "z": -5.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 180,
+        "z": 0
+      },
+      "size": [
+        0.0039879784,
+        0.0125165843
+      ],
+      "attributes": {
+        "scale": 0.005,
+        "has_orientation": true,
+        "room_id": 1,
+        "orientation": "south"
+      }
+    },
+    {
+      "object_id": 7059745,
+      "model": "rubberduck2",
+      "name": "rubberduck",
+      "label": "2",
+      "pos": {
+        "x": -3.0,
+        "y": 0.15000000000000002,
+        "z": -2.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "size": [
+        0.00290418708,
+        0.004937615544
+      ],
+      "attributes": {
+        "scale": 0.12,
+        "has_orientation": true,
+        "room_id": 1,
+        "orientation": "east"
+      }
+    },
+    {
+      "object_id": 1921692,
+      "model": "airplane3",
+      "name": "airplane",
+      "label": "3",
+      "pos": {
+        "x": 0.0,
+        "y": 0.05,
+        "z": -6.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 180,
+        "z": 0
+      },
+      "size": [
+        0.010572741696,
+        0.010453868832000002
+      ],
+      "attributes": {
+        "scale": 0.0008,
+        "has_orientation": true,
+        "room_id": 1,
+        "orientation": "south"
+      }
+    },
+    {
+      "object_id": 5425051,
+      "model": "toilet2",
+      "name": "toilet",
+      "label": "4",
+      "pos": {
+        "x": 1.0,
+        "y": 0.05,
+        "z": -4.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": [
+        0.003413068096,
+        0.00705007744
+      ],
+      "attributes": {
+        "scale": 0.002,
+        "has_orientation": true,
+        "room_id": 1,
+        "orientation": "north"
+      }
+    },
+    {
+      "object_id": 4614613,
+      "model": "truck1",
+      "name": "truck",
+      "label": "5",
+      "pos": {
+        "x": 0.0,
+        "y": 0.25,
+        "z": 4.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "size": [
+        0.007510580051999999,
+        0.0037310961419999996
+      ],
+      "attributes": {
+        "scale": 0.0006,
+        "has_orientation": true,
+        "room_id": 2,
+        "orientation": "east"
+      }
+    },
+    {
+      "object_id": 4673442,
+      "model": "cabinet_24_wood_beach_honey",
+      "name": "cabinet",
+      "label": "6",
+      "pos": {
+        "x": 2.0,
+        "y": 0.05,
+        "z": 5.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "size": [
+        0.42511749,
+        0.44971479
+      ],
+      "attributes": {
+        "scale": 0.7,
+        "has_orientation": false,
+        "room_id": 2
+      }
+    },
+    {
+      "object_id": 7898820,
+      "model": "alarm_clock1",
+      "name": "alarmclock",
+      "label": "7",
+      "pos": {
+        "x": 5.0,
+        "y": 0.05,
+        "z": 2.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 270,
+        "z": 0
+      },
+      "size": [
+        0.00658252761,
+        0.0040582183
+      ],
+      "attributes": {
+        "scale": 0.05,
+        "has_orientation": true,
+        "room_id": 2,
+        "orientation": "west"
+      }
+    },
+    {
+      "object_id": 2020512,
+      "model": "cap2",
+      "name": "cap",
+      "label": "8",
+      "pos": {
+        "x": 4.0,
+        "y": 0.05,
+        "z": 0.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": [
+        0.00680897315,
+        0.010689174999999999
+      ],
+      "attributes": {
+        "scale": 0.35,
+        "has_orientation": true,
+        "room_id": 2,
+        "orientation": "north"
+      }
+    },
+    {
+      "object_id": 7697911,
+      "model": "dog2",
+      "name": "dog",
+      "label": "9",
+      "pos": {
+        "x": 5.0,
+        "y": 0.05,
+        "z": 5.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "size": [
+        0.0022934808000000004,
+        0.011447361912
+      ],
+      "attributes": {
+        "scale": 0.008,
+        "has_orientation": true,
+        "room_id": 2,
+        "orientation": "east"
+      }
+    },
+    {
+      "object_id": 20135,
+      "model": "brown_door",
+      "name": "brown door",
+      "pos": {
+        "x": 1.0,
+        "y": 0,
+        "z": -1.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": [
+        1,
+        2.0
+      ],
+      "attributes": {
+        "color": "brown",
+        "orientation": "horizontal",
+        "connected_rooms": [
+          1,
+          2
+        ]
+      }
+    }
+  ],
+  "cameras": [
+    {
+      "id": "agent",
+      "label": "A",
+      "position": {
+        "x": -3.0,
+        "y": 0.85,
+        "z": -7.0
+      },
+      "rotation": {
+        "y": 0.0
+      }
+    },
+    {
+      "id": "1227849",
+      "label": "1",
+      "position": {
+        "x": -2.0,
+        "y": 0.8,
+        "z": -5.0
+      },
+      "rotation": {
+        "y": 21.80140948635181
+      }
+    },
+    {
+      "id": "7059745",
+      "label": "2",
+      "position": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": -2.0
+      },
+      "rotation": {
+        "y": 56.309932474020215
+      }
+    },
+    {
+      "id": "1921692",
+      "label": "3",
+      "position": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "rotation": {
+        "y": -0.0
+      }
+    },
+    {
+      "id": "5425051",
+      "label": "4",
+      "position": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -4.0
+      },
+      "rotation": {
+        "y": -14.036243467926479
+      }
+    },
+    {
+      "id": "4614613",
+      "label": "5",
+      "position": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": 4.0
+      },
+      "rotation": {
+        "y": -180.0
+      }
+    },
+    {
+      "id": "4673442",
+      "label": "6",
+      "position": {
+        "x": 2.0,
+        "y": 0.8,
+        "z": 5.0
+      },
+      "rotation": {
+        "y": -158.19859051364818
+      }
+    },
+    {
+      "id": "7898820",
+      "label": "7",
+      "position": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "rotation": {
+        "y": -111.80140948635182
+      }
+    },
+    {
+      "id": "2020512",
+      "label": "8",
+      "position": {
+        "x": 4.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "rotation": {
+        "y": -90.0
+      }
+    },
+    {
+      "id": "7697911",
+      "label": "9",
+      "position": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": 5.0
+      },
+      "rotation": {
+        "y": -135.0
+      }
+    },
+    {
+      "id": "20135",
+      "label": "D20135",
+      "position": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "rotation": {
+        "y": 0.0
+      }
+    }
+  ],
+  "images": [
+    {
+      "file": "top_down.png",
+      "cam_id": "top_down",
+      "pos": {
+        "x": 0,
+        "y": 20,
+        "z": 0
+      },
+      "direction": "down",
+      "object_ratios": []
+    },
+    {
+      "file": "top_down_annotated.png",
+      "cam_id": "top_down_annotated",
+      "pos": {
+        "x": 0,
+        "y": 20,
+        "z": 0
+      },
+      "direction": "down",
+      "object_ratios": []
+    },
+    {
+      "file": "agent_facing_north.png",
+      "cam_id": "agent",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": -7.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 1227849,
+          "model": "bicycle1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 7059745,
+          "model": "rubberduck2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "agent_facing_east.png",
+      "cam_id": "agent",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": -7.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 1921692,
+          "model": "airplane3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 5425051,
+          "model": "toilet2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "agent_facing_south.png",
+      "cam_id": "agent",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": -7.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "agent_facing_west.png",
+      "cam_id": "agent",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": -7.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "1227849_facing_north.png",
+      "cam_id": "1227849",
+      "pos": {
+        "x": -2.0,
+        "y": 0.8,
+        "z": -5.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 7059745,
+          "model": "rubberduck2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "1227849_facing_east.png",
+      "cam_id": "1227849",
+      "pos": {
+        "x": -2.0,
+        "y": 0.8,
+        "z": -5.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 1921692,
+          "model": "airplane3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 5425051,
+          "model": "toilet2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "1227849_facing_south.png",
+      "cam_id": "1227849",
+      "pos": {
+        "x": -2.0,
+        "y": 0.8,
+        "z": -5.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "1227849_facing_west.png",
+      "cam_id": "1227849",
+      "pos": {
+        "x": -2.0,
+        "y": 0.8,
+        "z": -5.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "7059745_facing_north.png",
+      "cam_id": "7059745",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": -2.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "7059745_facing_east.png",
+      "cam_id": "7059745",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": -2.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 5425051,
+          "model": "toilet2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7059745_facing_south.png",
+      "cam_id": "7059745",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": -2.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 1227849,
+          "model": "bicycle1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 1921692,
+          "model": "airplane3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7059745_facing_west.png",
+      "cam_id": "7059745",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": -2.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "1921692_facing_north.png",
+      "cam_id": "1921692",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 7059745,
+          "model": "rubberduck2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 5425051,
+          "model": "toilet2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "1921692_facing_east.png",
+      "cam_id": "1921692",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "1921692_facing_south.png",
+      "cam_id": "1921692",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "1921692_facing_west.png",
+      "cam_id": "1921692",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 1227849,
+          "model": "bicycle1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "5425051_facing_north.png",
+      "cam_id": "5425051",
+      "pos": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -4.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "5425051_facing_east.png",
+      "cam_id": "5425051",
+      "pos": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -4.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "5425051_facing_south.png",
+      "cam_id": "5425051",
+      "pos": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -4.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 1921692,
+          "model": "airplane3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "5425051_facing_west.png",
+      "cam_id": "5425051",
+      "pos": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -4.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 1227849,
+          "model": "bicycle1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 7059745,
+          "model": "rubberduck2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "4614613_facing_north.png",
+      "cam_id": "4614613",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": 4.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "4614613_facing_east.png",
+      "cam_id": "4614613",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": 4.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 4673442,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 7898820,
+          "model": "alarm_clock1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 2020512,
+          "model": "cap2",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 7697911,
+          "model": "dog2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "4614613_facing_south.png",
+      "cam_id": "4614613",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": 4.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 2020512,
+          "model": "cap2",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "4614613_facing_west.png",
+      "cam_id": "4614613",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": 4.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "4673442_facing_north.png",
+      "cam_id": "4673442",
+      "pos": {
+        "x": 2.0,
+        "y": 0.8,
+        "z": 5.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "4673442_facing_east.png",
+      "cam_id": "4673442",
+      "pos": {
+        "x": 2.0,
+        "y": 0.8,
+        "z": 5.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 7898820,
+          "model": "alarm_clock1",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 7697911,
+          "model": "dog2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "4673442_facing_south.png",
+      "cam_id": "4673442",
+      "pos": {
+        "x": 2.0,
+        "y": 0.8,
+        "z": 5.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 7898820,
+          "model": "alarm_clock1",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 2020512,
+          "model": "cap2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "4673442_facing_west.png",
+      "cam_id": "4673442",
+      "pos": {
+        "x": 2.0,
+        "y": 0.8,
+        "z": 5.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 4614613,
+          "model": "truck1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7898820_facing_north.png",
+      "cam_id": "7898820",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 4673442,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 7697911,
+          "model": "dog2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7898820_facing_east.png",
+      "cam_id": "7898820",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "7898820_facing_south.png",
+      "cam_id": "7898820",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 2020512,
+          "model": "cap2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7898820_facing_west.png",
+      "cam_id": "7898820",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 4614613,
+          "model": "truck1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 4673442,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "2020512_facing_north.png",
+      "cam_id": "2020512",
+      "pos": {
+        "x": 4.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 4614613,
+          "model": "truck1",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 4673442,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 7898820,
+          "model": "alarm_clock1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 7697911,
+          "model": "dog2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "2020512_facing_east.png",
+      "cam_id": "2020512",
+      "pos": {
+        "x": 4.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "2020512_facing_south.png",
+      "cam_id": "2020512",
+      "pos": {
+        "x": 4.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "2020512_facing_west.png",
+      "cam_id": "2020512",
+      "pos": {
+        "x": 4.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 4614613,
+          "model": "truck1",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7697911_facing_north.png",
+      "cam_id": "7697911",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": 5.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "7697911_facing_east.png",
+      "cam_id": "7697911",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": 5.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "7697911_facing_south.png",
+      "cam_id": "7697911",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": 5.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 7898820,
+          "model": "alarm_clock1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 2020512,
+          "model": "cap2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7697911_facing_west.png",
+      "cam_id": "7697911",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": 5.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 4614613,
+          "model": "truck1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 4673442,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20135_facing_north.png",
+      "cam_id": "20135",
+      "pos": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "20135_facing_east.png",
+      "cam_id": "20135",
+      "pos": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "20135_facing_south.png",
+      "cam_id": "20135",
+      "pos": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 1227849,
+          "model": "bicycle1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 1921692,
+          "model": "airplane3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 5425051,
+          "model": "toilet2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20135_facing_west.png",
+      "cam_id": "20135",
+      "pos": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 7059745,
+          "model": "rubberduck2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20135_facing_north.png",
+      "cam_id": "20135",
+      "pos": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 4614613,
+          "model": "truck1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 4673442,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 7697911,
+          "model": "dog2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20135_facing_east.png",
+      "cam_id": "20135",
+      "pos": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 7898820,
+          "model": "alarm_clock1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 2020512,
+          "model": "cap2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20135_facing_south.png",
+      "cam_id": "20135",
+      "pos": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "20135_facing_west.png",
+      "cam_id": "20135",
+      "pos": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    }
+  ],
+  "rooms": {
+    "1": {
+      "center": [
+        -0.5,
+        -4.5
+      ],
+      "bounds": [
+        -3.5,
+        2.5,
+        -7.5,
+        -1.5
+      ],
+      "area": 36,
+      "connected_rooms": [
+        2
+      ]
+    },
+    "2": {
+      "center": [
+        2.5,
+        2.5
+      ],
+      "bounds": [
+        -0.5,
+        5.5,
+        -0.5,
+        5.5
+      ],
+      "area": 36,
+      "connected_rooms": [
+        1
+      ]
+    }
+  },
+  "doors": {
+    "101": {
+      "center": [
+        1.0,
+        -1.0
+      ],
+      "color": "brown",
+      "connected_rooms": [
+        1,
+        2
+      ],
+      "orientation": "horizontal",
+      "width": 1
+    }
+  },
+  "room_object_assignments": {
+    "1": [
+      {
+        "object_id": 1227849,
+        "name": "bicycle",
+        "label": "1"
+      },
+      {
+        "object_id": 7059745,
+        "name": "rubberduck",
+        "label": "2"
+      },
+      {
+        "object_id": 1921692,
+        "name": "airplane",
+        "label": "3"
+      },
+      {
+        "object_id": 5425051,
+        "name": "toilet",
+        "label": "4"
+      }
+    ],
+    "2": [
+      {
+        "object_id": 4614613,
+        "name": "truck",
+        "label": "5"
+      },
+      {
+        "object_id": 4673442,
+        "name": "cabinet",
+        "label": "6"
+      },
+      {
+        "object_id": 7898820,
+        "name": "alarmclock",
+        "label": "7"
+      },
+      {
+        "object_id": 2020512,
+        "name": "cap",
+        "label": "8"
+      },
+      {
+        "object_id": 7697911,
+        "name": "dog",
+        "label": "9"
+      }
+    ]
+  },
+  "mask": [
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      101,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ]
+  ],
+  "offset": [
+    10,
+    10
+  ],
+  "validated_tasks": [
+    "rot",
+    "rot_dual",
+    "dir",
+    "pov",
+    "e2a",
+    "fwd_loc",
+    "bwd_loc",
+    "false_belief",
+    "fwd_fov",
+    "bwd_nav",
+    "bwd_pov"
+  ]
+}

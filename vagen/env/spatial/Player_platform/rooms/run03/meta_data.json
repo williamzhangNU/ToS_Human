@@ -1,0 +1,1850 @@
+{
+  "room_size": [
+    20.0,
+    20.0
+  ],
+  "screen_size": [
+    768,
+    768
+  ],
+  "seed": 5000,
+  "min_distance": 1.42,
+  "objects": [
+    {
+      "object_id": 3069050,
+      "model": "cabinet_24_wood_beach_honey",
+      "name": "cabinet",
+      "label": "1",
+      "pos": {
+        "x": -2.0,
+        "y": 0.05,
+        "z": -2.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 180,
+        "z": 0
+      },
+      "size": [
+        0.42511749,
+        0.44971479
+      ],
+      "attributes": {
+        "scale": 0.7,
+        "has_orientation": false,
+        "room_id": 1
+      }
+    },
+    {
+      "object_id": 8900744,
+      "model": "alarm_clock",
+      "name": "alarmclock",
+      "label": "2",
+      "pos": {
+        "x": -4.0,
+        "y": 0.05,
+        "z": -3.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 270,
+        "z": 0
+      },
+      "size": [
+        0.5665459500000001,
+        0.52468341
+      ],
+      "attributes": {
+        "scale": 3.0,
+        "has_orientation": true,
+        "room_id": 1,
+        "orientation": "west"
+      }
+    },
+    {
+      "object_id": 7950399,
+      "model": "kids_luggage_1",
+      "name": "suitcase",
+      "label": "3",
+      "pos": {
+        "x": -6.0,
+        "y": 0.05,
+        "z": 2.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": [
+        0.3013573,
+        0.13246452
+      ],
+      "attributes": {
+        "scale": 1.0,
+        "has_orientation": true,
+        "room_id": 1,
+        "orientation": "north"
+      }
+    },
+    {
+      "object_id": 4225182,
+      "model": "mug",
+      "name": "mug",
+      "label": "4",
+      "pos": {
+        "x": -4.0,
+        "y": 0.05,
+        "z": 1.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "size": [
+        0.41377196,
+        0.32694984
+      ],
+      "attributes": {
+        "scale": 7.0,
+        "has_orientation": true,
+        "room_id": 1,
+        "orientation": "east"
+      }
+    },
+    {
+      "object_id": 7422763,
+      "model": "blue_rug",
+      "name": "rug",
+      "label": "5",
+      "pos": {
+        "x": 4.0,
+        "y": 0.05,
+        "z": -6.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "size": [
+        0.9144,
+        1.3716
+      ],
+      "attributes": {
+        "scale": 0.5,
+        "has_orientation": false,
+        "room_id": 2
+      }
+    },
+    {
+      "object_id": 6812991,
+      "model": "pan05",
+      "name": "pan",
+      "label": "6",
+      "pos": {
+        "x": 5.0,
+        "y": 0.05,
+        "z": -3.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "size": [
+        0.7285803,
+        1.3824988500000002
+      ],
+      "attributes": {
+        "scale": 1.5,
+        "has_orientation": true,
+        "room_id": 2,
+        "orientation": "east"
+      }
+    },
+    {
+      "object_id": 3221643,
+      "model": "vase_01",
+      "name": "vase",
+      "label": "7",
+      "pos": {
+        "x": 1.0,
+        "y": 0.05,
+        "z": -8.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": [
+        0.29050520999999996,
+        0.29050524
+      ],
+      "attributes": {
+        "scale": 3.0,
+        "has_orientation": false,
+        "room_id": 2
+      }
+    },
+    {
+      "object_id": 1433271,
+      "model": "toilet3",
+      "name": "toilet",
+      "label": "8",
+      "pos": {
+        "x": 5.0,
+        "y": 0.05,
+        "z": -8.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": [
+        0.00459601507,
+        0.006729260809999999
+      ],
+      "attributes": {
+        "scale": 0.01,
+        "has_orientation": true,
+        "room_id": 2,
+        "orientation": "north"
+      }
+    },
+    {
+      "object_id": 8444003,
+      "model": "teddybear4",
+      "name": "teddybear",
+      "label": "9",
+      "pos": {
+        "x": 6.0,
+        "y": 0.05,
+        "z": -6.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 270,
+        "z": 0
+      },
+      "size": [
+        0.00497947,
+        0.0049180043925
+      ],
+      "attributes": {
+        "scale": 0.25,
+        "has_orientation": true,
+        "room_id": 2,
+        "orientation": "west"
+      }
+    },
+    {
+      "object_id": 20075,
+      "model": "red_door",
+      "name": "red door",
+      "pos": {
+        "x": 0.0,
+        "y": 0,
+        "z": -3.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": [
+        1,
+        2.0
+      ],
+      "attributes": {
+        "color": "red",
+        "orientation": "vertical",
+        "connected_rooms": [
+          1,
+          2
+        ]
+      }
+    }
+  ],
+  "cameras": [
+    {
+      "id": "agent",
+      "label": "A",
+      "position": {
+        "x": -6.0,
+        "y": 0.85,
+        "z": -1.0
+      },
+      "rotation": {
+        "y": 0.0
+      }
+    },
+    {
+      "id": "3069050",
+      "label": "1",
+      "position": {
+        "x": -2.0,
+        "y": 0.8,
+        "z": -2.0
+      },
+      "rotation": {
+        "y": 45.0
+      }
+    },
+    {
+      "id": "8900744",
+      "label": "2",
+      "position": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "rotation": {
+        "y": 53.13010235415598
+      }
+    },
+    {
+      "id": "7950399",
+      "label": "3",
+      "position": {
+        "x": -6.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "rotation": {
+        "y": 108.43494882292202
+      }
+    },
+    {
+      "id": "4225182",
+      "label": "4",
+      "position": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": 1.0
+      },
+      "rotation": {
+        "y": 104.03624346792648
+      }
+    },
+    {
+      "id": "7422763",
+      "label": "5",
+      "position": {
+        "x": 4.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "rotation": {
+        "y": -33.690067525979785
+      }
+    },
+    {
+      "id": "6812991",
+      "label": "6",
+      "position": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "rotation": {
+        "y": -59.03624346792648
+      }
+    },
+    {
+      "id": "3221643",
+      "label": "7",
+      "position": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -8.0
+      },
+      "rotation": {
+        "y": -7.125016348901798
+      }
+    },
+    {
+      "id": "1433271",
+      "label": "8",
+      "position": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": -8.0
+      },
+      "rotation": {
+        "y": -32.005383208083494
+      }
+    },
+    {
+      "id": "8444003",
+      "label": "9",
+      "position": {
+        "x": 6.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "rotation": {
+        "y": -45.0
+      }
+    },
+    {
+      "id": "20075",
+      "label": "D20075",
+      "position": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "rotation": {
+        "y": 0.0
+      }
+    }
+  ],
+  "images": [
+    {
+      "file": "top_down.png",
+      "cam_id": "top_down",
+      "pos": {
+        "x": 0,
+        "y": 20,
+        "z": 0
+      },
+      "direction": "down",
+      "object_ratios": []
+    },
+    {
+      "file": "top_down_annotated.png",
+      "cam_id": "top_down_annotated",
+      "pos": {
+        "x": 0,
+        "y": 20,
+        "z": 0
+      },
+      "direction": "down",
+      "object_ratios": []
+    },
+    {
+      "file": "agent_facing_north.png",
+      "cam_id": "agent",
+      "pos": {
+        "x": -6.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 7950399,
+          "model": "kids_luggage_1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 4225182,
+          "model": "mug",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "agent_facing_east.png",
+      "cam_id": "agent",
+      "pos": {
+        "x": -6.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 3069050,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8900744,
+          "model": "alarm_clock",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 4225182,
+          "model": "mug",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "agent_facing_south.png",
+      "cam_id": "agent",
+      "pos": {
+        "x": -6.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 8900744,
+          "model": "alarm_clock",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "agent_facing_west.png",
+      "cam_id": "agent",
+      "pos": {
+        "x": -6.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "3069050_facing_north.png",
+      "cam_id": "3069050",
+      "pos": {
+        "x": -2.0,
+        "y": 0.8,
+        "z": -2.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 7950399,
+          "model": "kids_luggage_1",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 4225182,
+          "model": "mug",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "3069050_facing_east.png",
+      "cam_id": "3069050",
+      "pos": {
+        "x": -2.0,
+        "y": 0.8,
+        "z": -2.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "3069050_facing_south.png",
+      "cam_id": "3069050",
+      "pos": {
+        "x": -2.0,
+        "y": 0.8,
+        "z": -2.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "3069050_facing_west.png",
+      "cam_id": "3069050",
+      "pos": {
+        "x": -2.0,
+        "y": 0.8,
+        "z": -2.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 8900744,
+          "model": "alarm_clock",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 7950399,
+          "model": "kids_luggage_1",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "8900744_facing_north.png",
+      "cam_id": "8900744",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 7950399,
+          "model": "kids_luggage_1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 4225182,
+          "model": "mug",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "8900744_facing_east.png",
+      "cam_id": "8900744",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 3069050,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "8900744_facing_south.png",
+      "cam_id": "8900744",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "8900744_facing_west.png",
+      "cam_id": "8900744",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "7950399_facing_north.png",
+      "cam_id": "7950399",
+      "pos": {
+        "x": -6.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "7950399_facing_east.png",
+      "cam_id": "7950399",
+      "pos": {
+        "x": -6.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 3069050,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 4225182,
+          "model": "mug",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7950399_facing_south.png",
+      "cam_id": "7950399",
+      "pos": {
+        "x": -6.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 3069050,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8900744,
+          "model": "alarm_clock",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7950399_facing_west.png",
+      "cam_id": "7950399",
+      "pos": {
+        "x": -6.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "4225182_facing_north.png",
+      "cam_id": "4225182",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": 1.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "4225182_facing_east.png",
+      "cam_id": "4225182",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": 1.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "4225182_facing_south.png",
+      "cam_id": "4225182",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": 1.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 3069050,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8900744,
+          "model": "alarm_clock",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "4225182_facing_west.png",
+      "cam_id": "4225182",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": 1.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 7950399,
+          "model": "kids_luggage_1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7422763_facing_north.png",
+      "cam_id": "7422763",
+      "pos": {
+        "x": 4.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 6812991,
+          "model": "pan05",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7422763_facing_east.png",
+      "cam_id": "7422763",
+      "pos": {
+        "x": 4.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 8444003,
+          "model": "teddybear4",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7422763_facing_south.png",
+      "cam_id": "7422763",
+      "pos": {
+        "x": 4.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 1433271,
+          "model": "toilet3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7422763_facing_west.png",
+      "cam_id": "7422763",
+      "pos": {
+        "x": 4.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 3221643,
+          "model": "vase_01",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "6812991_facing_north.png",
+      "cam_id": "6812991",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "6812991_facing_east.png",
+      "cam_id": "6812991",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "6812991_facing_south.png",
+      "cam_id": "6812991",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 7422763,
+          "model": "blue_rug",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 3221643,
+          "model": "vase_01",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 1433271,
+          "model": "toilet3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8444003,
+          "model": "teddybear4",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "6812991_facing_west.png",
+      "cam_id": "6812991",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "3221643_facing_north.png",
+      "cam_id": "3221643",
+      "pos": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -8.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 6812991,
+          "model": "pan05",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "3221643_facing_east.png",
+      "cam_id": "3221643",
+      "pos": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -8.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 7422763,
+          "model": "blue_rug",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 1433271,
+          "model": "toilet3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8444003,
+          "model": "teddybear4",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "3221643_facing_south.png",
+      "cam_id": "3221643",
+      "pos": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -8.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "3221643_facing_west.png",
+      "cam_id": "3221643",
+      "pos": {
+        "x": 1.0,
+        "y": 0.8,
+        "z": -8.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "1433271_facing_north.png",
+      "cam_id": "1433271",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": -8.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 7422763,
+          "model": "blue_rug",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 6812991,
+          "model": "pan05",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8444003,
+          "model": "teddybear4",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "1433271_facing_east.png",
+      "cam_id": "1433271",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": -8.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "1433271_facing_south.png",
+      "cam_id": "1433271",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": -8.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "1433271_facing_west.png",
+      "cam_id": "1433271",
+      "pos": {
+        "x": 5.0,
+        "y": 0.8,
+        "z": -8.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 3221643,
+          "model": "vase_01",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "8444003_facing_north.png",
+      "cam_id": "8444003",
+      "pos": {
+        "x": 6.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 6812991,
+          "model": "pan05",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "8444003_facing_east.png",
+      "cam_id": "8444003",
+      "pos": {
+        "x": 6.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "8444003_facing_south.png",
+      "cam_id": "8444003",
+      "pos": {
+        "x": 6.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 1433271,
+          "model": "toilet3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "8444003_facing_west.png",
+      "cam_id": "8444003",
+      "pos": {
+        "x": 6.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 7422763,
+          "model": "blue_rug",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 3221643,
+          "model": "vase_01",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20075_facing_north.png",
+      "cam_id": "20075",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 4225182,
+          "model": "mug",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20075_facing_east.png",
+      "cam_id": "20075",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "20075_facing_south.png",
+      "cam_id": "20075",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "20075_facing_west.png",
+      "cam_id": "20075",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 3069050,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8900744,
+          "model": "alarm_clock",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 7950399,
+          "model": "kids_luggage_1",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 4225182,
+          "model": "mug",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20075_facing_north.png",
+      "cam_id": "20075",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "20075_facing_east.png",
+      "cam_id": "20075",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 7422763,
+          "model": "blue_rug",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 6812991,
+          "model": "pan05",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 1433271,
+          "model": "toilet3",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8444003,
+          "model": "teddybear4",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20075_facing_south.png",
+      "cam_id": "20075",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 3221643,
+          "model": "vase_01",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 1433271,
+          "model": "toilet3",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20075_facing_west.png",
+      "cam_id": "20075",
+      "pos": {
+        "x": 0.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    }
+  ],
+  "rooms": {
+    "1": {
+      "center": [
+        -3.5,
+        -0.5
+      ],
+      "bounds": [
+        -6.5,
+        -0.5,
+        -3.5,
+        2.5
+      ],
+      "area": 36,
+      "connected_rooms": [
+        2
+      ]
+    },
+    "2": {
+      "center": [
+        3.5,
+        -5.5
+      ],
+      "bounds": [
+        0.5,
+        6.5,
+        -8.5,
+        -2.5
+      ],
+      "area": 36,
+      "connected_rooms": [
+        1
+      ]
+    }
+  },
+  "doors": {
+    "100": {
+      "center": [
+        0.0,
+        -3.0
+      ],
+      "color": "red",
+      "connected_rooms": [
+        1,
+        2
+      ],
+      "orientation": "vertical",
+      "width": 1
+    }
+  },
+  "room_object_assignments": {
+    "1": [
+      {
+        "object_id": 3069050,
+        "name": "cabinet",
+        "label": "1"
+      },
+      {
+        "object_id": 8900744,
+        "name": "alarmclock",
+        "label": "2"
+      },
+      {
+        "object_id": 7950399,
+        "name": "suitcase",
+        "label": "3"
+      },
+      {
+        "object_id": 4225182,
+        "name": "mug",
+        "label": "4"
+      }
+    ],
+    "2": [
+      {
+        "object_id": 7422763,
+        "name": "rug",
+        "label": "5"
+      },
+      {
+        "object_id": 6812991,
+        "name": "pan",
+        "label": "6"
+      },
+      {
+        "object_id": 3221643,
+        "name": "vase",
+        "label": "7"
+      },
+      {
+        "object_id": 1433271,
+        "name": "toilet",
+        "label": "8"
+      },
+      {
+        "object_id": 8444003,
+        "name": "teddybear",
+        "label": "9"
+      }
+    ]
+  },
+  "mask": [
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      100,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ]
+  ],
+  "offset": [
+    10,
+    10
+  ],
+  "validated_tasks": [
+    "rot",
+    "rot_dual",
+    "dir",
+    "pov",
+    "e2a",
+    "fwd_loc",
+    "bwd_loc",
+    "false_belief",
+    "fwd_fov",
+    "bwd_nav",
+    "bwd_pov"
+  ]
+}

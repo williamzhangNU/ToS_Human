@@ -1,0 +1,1848 @@
+{
+  "room_size": [
+    20.0,
+    20.0
+  ],
+  "screen_size": [
+    768,
+    768
+  ],
+  "seed": 9484,
+  "min_distance": 1.42,
+  "objects": [
+    {
+      "object_id": 1760213,
+      "model": "cabinet_24_wood_beach_honey",
+      "name": "cabinet",
+      "label": "1",
+      "pos": {
+        "x": -3.0,
+        "y": 0.05,
+        "z": -6.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": [
+        0.42511749,
+        0.44971479
+      ],
+      "attributes": {
+        "scale": 0.7,
+        "has_orientation": false,
+        "room_id": 1
+      }
+    },
+    {
+      "object_id": 9753176,
+      "model": "wood_chair",
+      "name": "yellow_chair",
+      "label": "2",
+      "pos": {
+        "x": -4.0,
+        "y": 0.05,
+        "z": -4.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": [
+        0.34391456,
+        0.38231632
+      ],
+      "attributes": {
+        "scale": 0.8,
+        "has_orientation": true,
+        "room_id": 1,
+        "color": {
+          "name": "yellow",
+          "r": 0.988,
+          "g": 0.776,
+          "b": 0.114,
+          "a": 1.0
+        },
+        "orientation": "north"
+      }
+    },
+    {
+      "object_id": 9500892,
+      "model": "fridge_large",
+      "name": "fridge",
+      "label": "3",
+      "pos": {
+        "x": -2.0,
+        "y": 0.05,
+        "z": -3.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 270,
+        "z": 0
+      },
+      "size": [
+        0.4559158,
+        0.39067385
+      ],
+      "attributes": {
+        "scale": 0.5,
+        "has_orientation": false,
+        "room_id": 1
+      }
+    },
+    {
+      "object_id": 8037765,
+      "model": "desklamp2",
+      "name": "desklamp",
+      "label": "4",
+      "pos": {
+        "x": -5.0,
+        "y": 0.05,
+        "z": -6.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 180,
+        "z": 0
+      },
+      "size": [
+        0.00798796024,
+        0.00822929575
+      ],
+      "attributes": {
+        "scale": 0.1,
+        "has_orientation": true,
+        "room_id": 1,
+        "orientation": "south"
+      }
+    },
+    {
+      "object_id": 5905047,
+      "model": "flat_woven_rug",
+      "name": "rug",
+      "label": "5",
+      "pos": {
+        "x": -9.0,
+        "y": 0.05,
+        "z": 0.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 180,
+        "z": 0
+      },
+      "size": [
+        0.9144,
+        1.3716
+      ],
+      "attributes": {
+        "scale": 0.5,
+        "has_orientation": false,
+        "room_id": 2
+      }
+    },
+    {
+      "object_id": 9348158,
+      "model": "truck4",
+      "name": "truck",
+      "label": "6",
+      "pos": {
+        "x": -4.0,
+        "y": 0.05,
+        "z": 1.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 270,
+        "z": 0
+      },
+      "size": [
+        0.0070909997199999995,
+        0.0038959
+      ],
+      "attributes": {
+        "scale": 2.0,
+        "has_orientation": true,
+        "room_id": 2,
+        "orientation": "west"
+      }
+    },
+    {
+      "object_id": 9413907,
+      "model": "b05_max2013vray_oven_by_whirlpool_akzm8910ixl",
+      "name": "oven",
+      "label": "7",
+      "pos": {
+        "x": -4.0,
+        "y": 0.05,
+        "z": 4.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 270,
+        "z": 0
+      },
+      "size": [
+        0.6000029,
+        0.5537239
+      ],
+      "attributes": {
+        "scale": 1,
+        "has_orientation": false,
+        "room_id": 2
+      }
+    },
+    {
+      "object_id": 7535976,
+      "model": "shoes3",
+      "name": "shoes3",
+      "label": "8",
+      "pos": {
+        "x": -9.0,
+        "y": 0.05,
+        "z": 2.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 90,
+        "z": 0
+      },
+      "size": [
+        0.0052580026000000005,
+        0.00635666102
+      ],
+      "attributes": {
+        "scale": 0.2,
+        "has_orientation": true,
+        "room_id": 2,
+        "orientation": "east"
+      }
+    },
+    {
+      "object_id": 9556318,
+      "model": "4ft_shelf_metal",
+      "name": "shelf",
+      "label": "9",
+      "pos": {
+        "x": -7.0,
+        "y": 0.05,
+        "z": 5.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": [
+        0.23146212,
+        0.56710092
+      ],
+      "attributes": {
+        "scale": 0.6,
+        "has_orientation": false,
+        "room_id": 2
+      }
+    },
+    {
+      "object_id": 20161,
+      "model": "yellow_door",
+      "name": "yellow door",
+      "pos": {
+        "x": -5.0,
+        "y": 0,
+        "z": -1.0
+      },
+      "rot": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "size": [
+        1,
+        2.0
+      ],
+      "attributes": {
+        "color": "yellow",
+        "orientation": "horizontal",
+        "connected_rooms": [
+          1,
+          2
+        ]
+      }
+    }
+  ],
+  "cameras": [
+    {
+      "id": "agent",
+      "label": "A",
+      "position": {
+        "x": -6.0,
+        "y": 0.85,
+        "z": -3.0
+      },
+      "rotation": {
+        "y": 0.0
+      }
+    },
+    {
+      "id": "1760213",
+      "label": "1",
+      "position": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "rotation": {
+        "y": 26.56505117707799
+      }
+    },
+    {
+      "id": "9753176",
+      "label": "2",
+      "position": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": -4.0
+      },
+      "rotation": {
+        "y": 45.0
+      }
+    },
+    {
+      "id": "9500892",
+      "label": "3",
+      "position": {
+        "x": -2.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "rotation": {
+        "y": 33.690067525979785
+      }
+    },
+    {
+      "id": "8037765",
+      "label": "4",
+      "position": {
+        "x": -5.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "rotation": {
+        "y": 39.80557109226519
+      }
+    },
+    {
+      "id": "5905047",
+      "label": "5",
+      "position": {
+        "x": -9.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "rotation": {
+        "y": 90.0
+      }
+    },
+    {
+      "id": "9348158",
+      "label": "6",
+      "position": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": 1.0
+      },
+      "rotation": {
+        "y": 104.03624346792648
+      }
+    },
+    {
+      "id": "9413907",
+      "label": "7",
+      "position": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": 4.0
+      },
+      "rotation": {
+        "y": 135.0
+      }
+    },
+    {
+      "id": "7535976",
+      "label": "8",
+      "position": {
+        "x": -9.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "rotation": {
+        "y": 102.52880770915151
+      }
+    },
+    {
+      "id": "9556318",
+      "label": "9",
+      "position": {
+        "x": -7.0,
+        "y": 0.8,
+        "z": 5.0
+      },
+      "rotation": {
+        "y": 125.53767779197437
+      }
+    },
+    {
+      "id": "20161",
+      "label": "D20161",
+      "position": {
+        "x": -5.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "rotation": {
+        "y": 0.0
+      }
+    }
+  ],
+  "images": [
+    {
+      "file": "top_down.png",
+      "cam_id": "top_down",
+      "pos": {
+        "x": 0,
+        "y": 20,
+        "z": 0
+      },
+      "direction": "down",
+      "object_ratios": []
+    },
+    {
+      "file": "top_down_annotated.png",
+      "cam_id": "top_down_annotated",
+      "pos": {
+        "x": 0,
+        "y": 20,
+        "z": 0
+      },
+      "direction": "down",
+      "object_ratios": []
+    },
+    {
+      "file": "agent_facing_north.png",
+      "cam_id": "agent",
+      "pos": {
+        "x": -6.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "agent_facing_east.png",
+      "cam_id": "agent",
+      "pos": {
+        "x": -6.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 1760213,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9753176,
+          "model": "wood_chair",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9500892,
+          "model": "fridge_large",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "agent_facing_south.png",
+      "cam_id": "agent",
+      "pos": {
+        "x": -6.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 1760213,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8037765,
+          "model": "desklamp2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "agent_facing_west.png",
+      "cam_id": "agent",
+      "pos": {
+        "x": -6.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "1760213_facing_north.png",
+      "cam_id": "1760213",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 9753176,
+          "model": "wood_chair",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9500892,
+          "model": "fridge_large",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "1760213_facing_east.png",
+      "cam_id": "1760213",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "1760213_facing_south.png",
+      "cam_id": "1760213",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "1760213_facing_west.png",
+      "cam_id": "1760213",
+      "pos": {
+        "x": -3.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 8037765,
+          "model": "desklamp2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "9753176_facing_north.png",
+      "cam_id": "9753176",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": -4.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "9753176_facing_east.png",
+      "cam_id": "9753176",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": -4.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 9500892,
+          "model": "fridge_large",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "9753176_facing_south.png",
+      "cam_id": "9753176",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": -4.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 1760213,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8037765,
+          "model": "desklamp2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "9753176_facing_west.png",
+      "cam_id": "9753176",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": -4.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "9500892_facing_north.png",
+      "cam_id": "9500892",
+      "pos": {
+        "x": -2.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "9500892_facing_east.png",
+      "cam_id": "9500892",
+      "pos": {
+        "x": -2.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "9500892_facing_south.png",
+      "cam_id": "9500892",
+      "pos": {
+        "x": -2.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 1760213,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8037765,
+          "model": "desklamp2",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "9500892_facing_west.png",
+      "cam_id": "9500892",
+      "pos": {
+        "x": -2.0,
+        "y": 0.8,
+        "z": -3.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 9753176,
+          "model": "wood_chair",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8037765,
+          "model": "desklamp2",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "8037765_facing_north.png",
+      "cam_id": "8037765",
+      "pos": {
+        "x": -5.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 9753176,
+          "model": "wood_chair",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9500892,
+          "model": "fridge_large",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "8037765_facing_east.png",
+      "cam_id": "8037765",
+      "pos": {
+        "x": -5.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 1760213,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9500892,
+          "model": "fridge_large",
+          "visibility_ratio": 0.5,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "8037765_facing_south.png",
+      "cam_id": "8037765",
+      "pos": {
+        "x": -5.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "8037765_facing_west.png",
+      "cam_id": "8037765",
+      "pos": {
+        "x": -5.0,
+        "y": 0.8,
+        "z": -6.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "5905047_facing_north.png",
+      "cam_id": "5905047",
+      "pos": {
+        "x": -9.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 7535976,
+          "model": "shoes3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9556318,
+          "model": "4ft_shelf_metal",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "5905047_facing_east.png",
+      "cam_id": "5905047",
+      "pos": {
+        "x": -9.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 9348158,
+          "model": "truck4",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9413907,
+          "model": "b05_max2013vray_oven_by_whirlpool_akzm8910ixl",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "5905047_facing_south.png",
+      "cam_id": "5905047",
+      "pos": {
+        "x": -9.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "5905047_facing_west.png",
+      "cam_id": "5905047",
+      "pos": {
+        "x": -9.0,
+        "y": 0.8,
+        "z": 0.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "9348158_facing_north.png",
+      "cam_id": "9348158",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": 1.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 9413907,
+          "model": "b05_max2013vray_oven_by_whirlpool_akzm8910ixl",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9556318,
+          "model": "4ft_shelf_metal",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "9348158_facing_east.png",
+      "cam_id": "9348158",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": 1.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "9348158_facing_south.png",
+      "cam_id": "9348158",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": 1.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "9348158_facing_west.png",
+      "cam_id": "9348158",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": 1.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 5905047,
+          "model": "flat_woven_rug",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 7535976,
+          "model": "shoes3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "9413907_facing_north.png",
+      "cam_id": "9413907",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": 4.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "9413907_facing_east.png",
+      "cam_id": "9413907",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": 4.0
+      },
+      "direction": "east",
+      "object_ratios": []
+    },
+    {
+      "file": "9413907_facing_south.png",
+      "cam_id": "9413907",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": 4.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 9348158,
+          "model": "truck4",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "9413907_facing_west.png",
+      "cam_id": "9413907",
+      "pos": {
+        "x": -4.0,
+        "y": 0.8,
+        "z": 4.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 5905047,
+          "model": "flat_woven_rug",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 7535976,
+          "model": "shoes3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9556318,
+          "model": "4ft_shelf_metal",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7535976_facing_north.png",
+      "cam_id": "7535976",
+      "pos": {
+        "x": -9.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 9556318,
+          "model": "4ft_shelf_metal",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7535976_facing_east.png",
+      "cam_id": "7535976",
+      "pos": {
+        "x": -9.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 9348158,
+          "model": "truck4",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9413907,
+          "model": "b05_max2013vray_oven_by_whirlpool_akzm8910ixl",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7535976_facing_south.png",
+      "cam_id": "7535976",
+      "pos": {
+        "x": -9.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 5905047,
+          "model": "flat_woven_rug",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "7535976_facing_west.png",
+      "cam_id": "7535976",
+      "pos": {
+        "x": -9.0,
+        "y": 0.8,
+        "z": 2.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "9556318_facing_north.png",
+      "cam_id": "9556318",
+      "pos": {
+        "x": -7.0,
+        "y": 0.8,
+        "z": 5.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "9556318_facing_east.png",
+      "cam_id": "9556318",
+      "pos": {
+        "x": -7.0,
+        "y": 0.8,
+        "z": 5.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 9348158,
+          "model": "truck4",
+          "visibility_ratio": 0.056,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9413907,
+          "model": "b05_max2013vray_oven_by_whirlpool_akzm8910ixl",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "9556318_facing_south.png",
+      "cam_id": "9556318",
+      "pos": {
+        "x": -7.0,
+        "y": 0.8,
+        "z": 5.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 5905047,
+          "model": "flat_woven_rug",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9348158,
+          "model": "truck4",
+          "visibility_ratio": 0.944,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 7535976,
+          "model": "shoes3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "9556318_facing_west.png",
+      "cam_id": "9556318",
+      "pos": {
+        "x": -7.0,
+        "y": 0.8,
+        "z": 5.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "20161_facing_north.png",
+      "cam_id": "20161",
+      "pos": {
+        "x": -5.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "north",
+      "object_ratios": []
+    },
+    {
+      "file": "20161_facing_east.png",
+      "cam_id": "20161",
+      "pos": {
+        "x": -5.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 9500892,
+          "model": "fridge_large",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20161_facing_south.png",
+      "cam_id": "20161",
+      "pos": {
+        "x": -5.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "south",
+      "object_ratios": [
+        {
+          "object_id": 1760213,
+          "model": "cabinet_24_wood_beach_honey",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9753176,
+          "model": "wood_chair",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 8037765,
+          "model": "desklamp2",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20161_facing_west.png",
+      "cam_id": "20161",
+      "pos": {
+        "x": -5.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "west",
+      "object_ratios": []
+    },
+    {
+      "file": "20161_facing_north.png",
+      "cam_id": "20161",
+      "pos": {
+        "x": -5.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "north",
+      "object_ratios": [
+        {
+          "object_id": 9348158,
+          "model": "truck4",
+          "visibility_ratio": 0.944,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9413907,
+          "model": "b05_max2013vray_oven_by_whirlpool_akzm8910ixl",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 9556318,
+          "model": "4ft_shelf_metal",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20161_facing_east.png",
+      "cam_id": "20161",
+      "pos": {
+        "x": -5.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "east",
+      "object_ratios": [
+        {
+          "object_id": 9348158,
+          "model": "truck4",
+          "visibility_ratio": 0.056,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    },
+    {
+      "file": "20161_facing_south.png",
+      "cam_id": "20161",
+      "pos": {
+        "x": -5.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "south",
+      "object_ratios": []
+    },
+    {
+      "file": "20161_facing_west.png",
+      "cam_id": "20161",
+      "pos": {
+        "x": -5.0,
+        "y": 0.8,
+        "z": -1.0
+      },
+      "direction": "west",
+      "object_ratios": [
+        {
+          "object_id": 5905047,
+          "model": "flat_woven_rug",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        },
+        {
+          "object_id": 7535976,
+          "model": "shoes3",
+          "visibility_ratio": 1.0,
+          "occlusion_ratio": 0.0
+        }
+      ]
+    }
+  ],
+  "rooms": {
+    "1": {
+      "center": [
+        -3.5,
+        -4.5
+      ],
+      "bounds": [
+        -6.5,
+        -0.5,
+        -7.5,
+        -1.5
+      ],
+      "area": 36,
+      "connected_rooms": [
+        2
+      ]
+    },
+    "2": {
+      "center": [
+        -6.5,
+        2.5
+      ],
+      "bounds": [
+        -9.5,
+        -3.5,
+        -0.5,
+        5.5
+      ],
+      "area": 36,
+      "connected_rooms": [
+        1
+      ]
+    }
+  },
+  "doors": {
+    "101": {
+      "center": [
+        -5.0,
+        -1.0
+      ],
+      "color": "yellow",
+      "connected_rooms": [
+        1,
+        2
+      ],
+      "orientation": "horizontal",
+      "width": 1
+    }
+  },
+  "room_object_assignments": {
+    "1": [
+      {
+        "object_id": 1760213,
+        "name": "cabinet",
+        "label": "1"
+      },
+      {
+        "object_id": 9753176,
+        "name": "yellow_chair",
+        "label": "2"
+      },
+      {
+        "object_id": 9500892,
+        "name": "fridge",
+        "label": "3"
+      },
+      {
+        "object_id": 8037765,
+        "name": "desklamp",
+        "label": "4"
+      }
+    ],
+    "2": [
+      {
+        "object_id": 5905047,
+        "name": "rug",
+        "label": "5"
+      },
+      {
+        "object_id": 9348158,
+        "name": "truck",
+        "label": "6"
+      },
+      {
+        "object_id": 9413907,
+        "name": "oven",
+        "label": "7"
+      },
+      {
+        "object_id": 7535976,
+        "name": "shoes3",
+        "label": "8"
+      },
+      {
+        "object_id": 9556318,
+        "name": "shelf",
+        "label": "9"
+      }
+    ]
+  },
+  "mask": [
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      101,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ],
+    [
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1
+    ]
+  ],
+  "offset": [
+    10,
+    10
+  ],
+  "validated_tasks": [
+    "rot",
+    "rot_dual",
+    "dir",
+    "pov",
+    "e2a",
+    "fwd_loc",
+    "bwd_loc",
+    "false_belief",
+    "fwd_fov",
+    "bwd_nav",
+    "bwd_pov"
+  ]
+}
