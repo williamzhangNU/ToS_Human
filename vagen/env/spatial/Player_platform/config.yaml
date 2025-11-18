@@ -1,6 +1,6 @@
 # config.yaml
 name: demo_env
-render_mode: vision
+render_mode: text  # options: vision or text
 # room_size: [10, 10]
 # n_objects: 3
 # level: 0

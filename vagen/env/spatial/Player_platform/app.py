@@ -7,12 +7,47 @@ ROOT_DIR = os.path.abspath(os.path.join(CURRENT_DIR, "..", "..", "..", ".."))
 if ROOT_DIR not in sys.path:
     sys.path.insert(0, ROOT_DIR)
 
+import re
 import streamlit as st
 from vagen.env.spatial.Player_platform.env_adapter import (
     get_user_session_state,
     set_user_id,
     get_base_user_id,
 )
+
+CONFIG_PATH = os.path.join(ROOT_DIR, "vagen/env/spatial/Player_platform/config.yaml")
+
+
+def _read_render_mode() -> str:
+    try:
+        with open(CONFIG_PATH, "r") as f:
+            for line in f:
+                text = line.strip()
+                if text.startswith("render_mode:"):
+                    return text.split(":", 1)[1].split("#", 1)[0].strip() or "vision"
+    except FileNotFoundError:
+        pass
+    return "vision"
+
+
+def _write_render_mode(mode: str) -> None:
+    try:
+        with open(CONFIG_PATH, "r") as f:
+            content = f.read()
+    except FileNotFoundError:
+        return
+
+    def repl(match: re.Match) -> str:
+        tail = match.group(3) or ""
+        return f"{match.group(1)}{mode}{tail}"
+
+    new_content, count = re.subn(
+        r"(^render_mode:\s*)(\S+)(.*)$", repl, content, flags=re.MULTILINE
+    )
+    if count and new_content != content:
+        with open(CONFIG_PATH, "w") as f:
+            f.write(new_content)
+
 
 st.set_page_config(page_title="Spatial Exploration Dashboard", layout="wide", page_icon="🧭")
 
@@ -33,7 +68,19 @@ base_id, session_id = set_user_id(typed_id)
 if not session_id:
     st.warning("⚠️ Please enter your ID before proceeding to Play.")
 else:
-    get_user_session_state(session_id)  # bootstrap per-user bucket
+    state = get_user_session_state(session_id)
+    current_mode = state.get("render_mode") or _read_render_mode()
+    render_mode = st.radio(
+        "Select render mode",
+        ("vision", "text"),
+        index=0 if current_mode != "text" else 1,
+        horizontal=True,
+    )
+    if render_mode != state.get("render_mode"):
+        state["render_mode"] = render_mode
+    if render_mode != current_mode:
+        _write_render_mode(render_mode)
+
     st.success(f"Using session ID: {session_id}")
     st.caption(f"Participant ID: {base_id}")
 
