@@ -8,14 +8,117 @@ if BASE_DIR not in sys.path:
     sys.path.insert(0, BASE_DIR)
 
 from dataclasses import dataclass
-from typing import Any, Dict, Optional, Tuple, List
-import os, json
+from typing import Any, Dict, Optional, Tuple
+import json
 import yaml
 import re
+import time
 from omegaconf import OmegaConf
-from vagen.env.spatial.Base.tos_base.utils.utils import THINK_LABEL, ANSWER_LABEL, format_llm_output
+try:
+    import streamlit as st
+except Exception:  # Streamlit is only available in the web app runtime.
+    st = None
+from vagen.env.spatial.Base.tos_base.utils.utils import format_llm_output
 from vagen.env.spatial.env import SpatialGym                  
-from vagen.env.spatial.env_config import SpatialGymConfig     
+from vagen.env.spatial.env_config import SpatialGymConfig
+
+_USER_STATE_KEY = "_player_sessions"
+_USER_BASE_FIELD = "_player_id_base"
+_USER_FULL_FIELD = "_player_id_full"
+
+
+def _require_streamlit() -> "st":
+    if not st:
+        raise RuntimeError("Streamlit is required for session helpers.")
+    return st
+
+
+def _session_store() -> Dict[str, Dict[str, Any]]:
+    """Return the shared session bucket that holds per-user dictionaries."""
+    _require_streamlit()
+    return st.session_state.setdefault(_USER_STATE_KEY, {})
+
+
+def _sanitize_user_id(value: Optional[str]) -> str:
+    """Normalize IDs so every helper speaks the same language."""
+    value = (value or "").strip()
+    return value or ""
+
+
+def set_user_id(raw_id: str, force_new: bool = False) -> Tuple[str, str]:
+    """
+    Persist both the human-entered ID and its unique timestamped variant.
+    Returns (base_id, session_id).
+    """
+    _require_streamlit()
+    base = _sanitize_user_id(raw_id)
+    if not base:
+        st.session_state.pop(_USER_BASE_FIELD, None)
+        st.session_state.pop(_USER_FULL_FIELD, None)
+        st.session_state.pop("user_id", None)
+        return "", ""
+
+    stored_base = st.session_state.get(_USER_BASE_FIELD)
+    session_id = st.session_state.get(_USER_FULL_FIELD)
+    if force_new or base != stored_base or not session_id:
+        session_id = f"{base}-{int(time.time() * 1000)}"
+
+    st.session_state[_USER_BASE_FIELD] = base
+    st.session_state[_USER_FULL_FIELD] = session_id
+    st.session_state["user_id"] = session_id  # main ID now includes timestamp
+    return base, session_id
+
+
+def require_user_id(message: str = "Set your participant ID on the Home page.") -> str:
+    """
+    Stop the page early unless the participant has typed an ID.
+    Returns the unique session ID (base + timestamp).
+    """
+    _require_streamlit()
+    session_id = get_full_user_id("")
+    if not session_id:
+        st.warning(message)
+        st.stop()
+    return session_id
+
+
+def get_user_session_state(session_id: Optional[str] = None) -> Dict[str, Any]:
+    """
+    Keep user-scoped objects (env, history, etc.) under one key so
+    concurrent participants never overwrite one another.
+    """
+    store = _session_store()
+    key = (session_id or get_full_user_id("")).strip()
+    if not key:
+        raise RuntimeError("No active participant session. Call set_user_id first.")
+    return store.setdefault(key, {})
+
+
+def get_base_user_id(default: str = "") -> str:
+    """Return the human-entered participant ID."""
+    if not st:
+        return default
+    return (st.session_state.get(_USER_BASE_FIELD) or "").strip() or default
+
+
+def get_full_user_id(default: str = "anon") -> str:
+    """Return the unique ID (base+timestamp) used for storage and logging."""
+    if not st:
+        return default
+    return (st.session_state.get(_USER_FULL_FIELD) or "").strip() or default
+
+
+def bind_model_name_to_user(cfg: SpatialGymConfig, user_id: str) -> SpatialGymConfig:
+    """
+    Ensure model_name (used for history directories) contains a user-specific suffix.
+    """
+    user_tag = re.sub(r"[^A-Za-z0-9._-]", "_", _sanitize_user_id(user_id)) or "anon"
+    cfg.kwargs = cfg.kwargs or {}
+    model_cfg = dict(cfg.kwargs.get("model_config") or {})
+    base_name = model_cfg.get("model_name") or "human_player"
+    model_cfg["model_name"] = f"{base_name}-{user_tag}"
+    cfg.kwargs["model_config"] = model_cfg
+    return cfg
 @dataclass
 class TurnRecord:
     t: int

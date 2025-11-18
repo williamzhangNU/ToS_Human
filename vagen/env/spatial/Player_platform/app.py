@@ -8,24 +8,34 @@ if ROOT_DIR not in sys.path:
     sys.path.insert(0, ROOT_DIR)
 
 import streamlit as st
+from vagen.env.spatial.Player_platform.env_adapter import (
+    get_user_session_state,
+    set_user_id,
+    get_base_user_id,
+)
 
 st.set_page_config(page_title="Spatial Exploration Dashboard", layout="wide", page_icon="🧭")
 
 st.title("🧭 Spatial Exploration Dashboard")
 
-if "user_id" not in st.session_state:
-    st.session_state.user_id = None
+if "participant_input" not in st.session_state:
+    st.session_state.participant_input = ""
 
-st.session_state.user_id = st.text_input(
+# Keep the raw input separate; the session ID adds the timestamp silently.
+typed_id = st.text_input(
     "Enter your participant ID",
-    value=st.session_state.user_id or "",
+    value=st.session_state.participant_input or "",
     placeholder="e.g., user123"
 )
+st.session_state.participant_input = typed_id
+base_id, session_id = set_user_id(typed_id)
 
-if not st.session_state.user_id:
+if not session_id:
     st.warning("⚠️ Please enter your ID before proceeding to Play.")
 else:
-    st.success(f"Using ID: {st.session_state.user_id}")
+    get_user_session_state(session_id)  # bootstrap per-user bucket
+    st.success(f"Using session ID: {session_id}")
+    st.caption(f"Participant ID: {base_id}")
 
 st.markdown("""
 Welcome! Use the **Play** page to interact with the environment turn by turn.
