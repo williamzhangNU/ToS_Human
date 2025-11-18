@@ -28,6 +28,24 @@ else:
     st.json(summary["exploration_summary"])
     st.subheader("Evaluation Summary")
     st.json(summary["evaluation_summary"])
+    core_env = getattr(env, "env", None)
+    eval_mgr = getattr(core_env, "evaluation_manager", None)
+    if eval_mgr and eval_mgr.turn_logs:
+        per_task = {}
+        for log in eval_mgr.turn_logs:
+            total, correct = per_task.get(log.task_type, (0, 0))
+            per_task[log.task_type] = (total + 1, correct + (1 if log.is_correct else 0))
+        rows = [
+            {
+                "task": task,
+                "accuracy": correct / total if total else 0.0,
+                "correct": correct,
+                "total": total,
+            }
+            for task, (total, correct) in sorted(per_task.items())
+        ]
+        st.subheader("Evaluation Accuracy by Task")
+        st.json(rows)
     st.subheader("Turn Logs")
     st.json(summary["env_turn_logs"])
     correct_answers = env.get_eval_answers()
